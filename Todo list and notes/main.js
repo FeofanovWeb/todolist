@@ -79,7 +79,7 @@ function createToDo(event){
     
     ToDo.appendChild(ToDoWrapper)
     ToDoTitile.textContent = input.value
-    ToDoId.textContent = TodoIndex++
+    ToDoId.textContent = id++
     input.value = "";
 
     buttonGreen.addEventListener('click', (event) => {
